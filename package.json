@@ -1,0 +1,23 @@
+{
+  "name": "koishi-plugin-smart",
+  "description": "一个多功能插件",
+  "version": "3.0.2",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.17.9"
+  },
+  "dependencies": {
+    "openai": "^4.53.2"
+  }
+}
